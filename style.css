@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+/* navbar */
+header {
+  background-color: rgb(193, 225, 252);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+}
+.nav-2 ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.nav-2 a {
+  text-decoration: none;
+}
+.common-btn {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: none;
+}
+.common-btn:hover {
+  background-color: #90acf8;
+}
+/* navbar end */
+
+
