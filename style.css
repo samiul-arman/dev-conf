@@ -47,31 +47,33 @@ nav {
 /* Banner Section */
 .banner-parent {
   width: 100%;
-  height: 786px; 
-  background-image: url(./assets/banner.jpg);
+  height: 786px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+    url(./assets/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
   text-align: center;
   color: white;
   box-sizing: border-box;
   padding: 0 20px;
 }
-.banner-parent-content h1{
-    font-size: 80px;
-    font-weight: 700;
-    padding-bottom: 16px;
+.banner-parent-content h1 {
+  font-size: 80px;
+  font-weight: 700;
+  padding-bottom: 16px;
 }
-.banner-parent-content p{
-    font-size: 22px;
-    font-weight: 400;
-    padding-bottom: 278px;
+.banner-parent-content p {
+  font-size: 22px;
+  font-weight: 400;
+  padding-bottom: 278px;
 }
-.banner-parent-content button{
-    background-color: #1d4ed8;
+.banner-parent-content button {
+  background-color: #1d4ed8;
   color: #ffffff;
   padding: 25px 65px;
   border-radius: 10px;
@@ -80,10 +82,194 @@ nav {
   font-size: 24px;
   font-weight: 700;
 }
-.banner-parent-content button:hover{
-    color: #90acf8;
+.banner-parent-content button:hover {
+  color: #90acf8;
 }
-.banner-parent-content{
-    margin-top: 136px;
+.banner-parent-content {
+  margin-top: 136px;
 }
 /* Banner End */
+
+/* Meet */
+.meet-parent {
+  margin: 80px 40px;
+  align-items: center;
+  /* text-align: center; */
+}
+.meet-parent h2 {
+  font-size: 56px;
+  font-weight: 700;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.meet-parent-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 55px;
+  text-align: left;
+}
+.meet-parent-img img {
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  padding-bottom: 25px;
+}
+.meet-parent-img-content h6 {
+  color: #2563eb;
+  padding: 8px 0;
+}
+.meet-parent-img-content {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 0 8px;
+}
+.meet-parent-img-content h3 {
+  padding: 8px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.meet-parent-img-content p {
+  padding-bottom: 24px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Secure Your Spot */
+.spot-parent {
+  margin: 169px 55px;
+  align-items: center;
+  max-width: 1150px;
+  padding: 0 20px;
+}
+.spot-parent-card-common,
+.spot-parent-card-second {
+    width: 320px;
+}
+.spot-parent > h2 {
+  font-size: 48px;
+  font-weight: 700;
+  padding: 12px;
+  text-align: center;
+}
+.spot-parent > p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 48px;
+  text-align: center;
+  color: #575757;
+}
+.spot-parent-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  text-align: left;
+  width: 100%;
+}
+.spot-parent-card-common {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  padding: 32px;
+  border-radius: 12px;
+}
+.spot-parent-card-second {
+  background-color: #0d1b2a;
+  border: 1px solid #0d1b2a;
+  padding: 32px;
+  border-radius: 12px;
+}
+.spot-parent-card-common h6{
+  font-size: 13px;
+  font-weight: 600;
+  padding-bottom: 8px;
+  color: #888888;
+}
+.spot-parent-card-common p {
+  font-size: 13px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  color: #888888;
+}
+.spot-parent-card-common h2{
+  font-size: 44px;
+  font-weight: 700;
+  padding-bottom: 4px;
+  color: #0d1b2a;
+}
+.spot-parent-card-common p{
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 16px;
+    margin-bottom: 20px; 
+}
+.spot-parent-card-common li{
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 12px;
+}
+.spot-parent-card-common li::marker {
+    color: #4f46e5;
+}
+.spot-parent-card-second h6{
+  font-size: 13px;
+  font-weight: 600;
+  padding-bottom: 8px;
+  color: #93c5fd;
+}
+.spot-parent-card-second p {
+  font-size: 13px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  color: #ffffff80;
+}
+.spot-parent-card-second h2{
+  font-size: 44px;
+  font-weight: 700;
+  padding-bottom: 4px;
+  color: #ffffff;
+}
+.spot-parent-card-second p{
+    border-bottom: 1px solid #ffffff1a;
+    padding-bottom: 16px;
+    margin-bottom: 20px; 
+}
+.spot-parent-card-second li{
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffffcc;
+  margin-bottom: 12px;
+}
+.spot-parent-card-second li::marker {
+    color: #59a2fc;   
+} 
+.spot-parent-card-common button,
+.spot-parent-card-second button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.spot-parent-card-common button{
+  color: #2563eb;
+  background-color: #ffffff;
+  border: 1px solid #2563eb;
+  font-size: 14px;
+  font-weight: 600;
+}
+.spot-parent-card-second button{
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #2563eb;
+}
+.spot-parent-card-common ul,
+.spot-parent-card-second ul {
+    padding-left: 18px;
+}
