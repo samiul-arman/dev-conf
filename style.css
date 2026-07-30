@@ -273,3 +273,47 @@ nav {
 .spot-parent-card-second ul {
     padding-left: 18px;
 }
+
+/* venue */
+.venue{
+    text-align: center;
+    margin: 100px 0;
+    background-color: #eff6ff;
+    padding: 60px 20px;
+}
+
+.venue h2{
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #1d4ed8;
+}
+
+.venue > p{
+    color: #4b5563;
+    margin-bottom: 30px;
+}
+
+.venue-card{
+    width: 350px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #bfdbfe;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.venue-card h3{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #2563eb;
+}
+
+.venue-card p{
+    color: #555;
+}
+
+.venue-card button{
+    margin-top: 20px;
+}
+
