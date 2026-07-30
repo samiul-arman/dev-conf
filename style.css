@@ -92,10 +92,11 @@ nav {
 
 /* Meet */
 .meet-parent {
-  margin: 80px 40px;
-  align-items: center;
-  /* text-align: center; */
+  max-width: 1350px;
+  margin: 80px auto;
+  padding: 0 20px;
 }
+
 .meet-parent h2 {
   font-size: 56px;
   font-weight: 700;
@@ -142,7 +143,7 @@ nav {
 
 /* Secure Your Spot */
 .spot-parent {
-  margin: 169px 55px;
+  margin: 169px auto;
   align-items: center;
   max-width: 1150px;
   padding: 0 20px;
